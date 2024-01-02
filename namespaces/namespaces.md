@@ -17,7 +17,7 @@
     metadata:
       name: mongodb-configmap
     data:
-      database_url: mongodb-service # The name of the service and it's namespace.
+      database_url: mongodb-service.database # The name of the service and it's namespace.
     ```
 - Some components cannot be created in a nampespace. They live globally in a cluster.
     - Persisten volume 
